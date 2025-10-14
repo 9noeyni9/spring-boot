@@ -269,7 +269,7 @@ bom {
 			site("https://commons.apache.org/proper/commons-pool")
 		}
 	}
-	library("Couchbase Client", "3.9.1") {
+	library("Couchbase Client", "3.9.2") {
 		group("com.couchbase.client") {
 			modules = [
 				"java-client"
@@ -980,7 +980,7 @@ bom {
 			releaseNotes("https://github.com/hunterhacker/jdom/releases/tag/JDOM-{version}")
 		}
 	}
-	library("Jedis", "6.2.0") {
+	library("Jedis", "7.0.0") {
 		alignWith {
 			property {
 				name "jedis"
@@ -1928,7 +1928,7 @@ bom {
 			]
 		}
 	}
-	library("Reactor Bom", "2025.0.0-M7") {
+	library("Reactor Bom", "2025.0.0-SNAPSHOT") {
 		considerSnapshots()
 		calendarName = "Reactor"
 		group("io.projectreactor") {
@@ -2533,7 +2533,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-restdocs/releases/tag/v{version}")
 		}
 	}
-	library("Spring Security", "7.0.0-M3") {
+	library("Spring Security", "7.0.0-SNAPSHOT") {
 		considerSnapshots()
 		group("org.springframework.security") {
 			bom("spring-security-bom")
